@@ -2,9 +2,9 @@
     export let y;
 
     export let tabs = [
-        { name: "Projects ", link: "#projects" },
-        { name: "About me", link: "#about" },
-        { name: "Blog", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+        { name: "Projects ", link: "#" },
+        { name: "About me", link: "#" },
+        { name: "Blog", link: "#" },
         // { name: "Contact", link: "" },
         // {name: '', link: ''},
     ];
@@ -17,7 +17,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Samuel</b> <span class="">Oak</span>
+        <b class="font-bold poppins">M. Danyal</b> <span class="">Kayani</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
